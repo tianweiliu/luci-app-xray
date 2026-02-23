@@ -20,9 +20,10 @@ jobs:
         include:
           # - arch: x86_64
           #   sdk_url_path: https://downloads.openwrt.org/releases/23.05.5/targets/x86/64
+          # openwrt-sdk-23.05.5-x86-64_gcc-12.3.0_musl.Linux-x86_64.tar.xz
           #   sdk_name: -sdk-23.05.5-x86-64_
           - arch: mvebu_cortexa72
-            sdk_url_path: https://downloads.openwrt.org/releases/24.10.5/targets/mvebu/cortexa72
+            sdk_url_path: https://downloads.openwrt.org/releases/24.10.4/targets/mvebu/cortexa72
             # openwrt-sdk-24.10.4-mvebu-cortexa72_gcc-13.3.0_musl.Linux-x86_64.tar.zst
             sdk_name: -sdk-24.10.4-mvebu-cortexa72_
             
